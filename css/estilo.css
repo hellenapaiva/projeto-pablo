@@ -1,0 +1,181 @@
+/*
+ Layout
+*/
+
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: url(../imagens/camera01.png), url(../imagens/ruido.png), linear-gradient(30deg, rgb(130, 190, 243, 0.1), rgb(88, 129, 218, 0.1));
+    background-attachment: fixed;
+    
+    
+}
+
+
+/* 
+Barra de navegação
+*/
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #D8BFD8;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .5);
+}
+
+.divisor {
+    width: 1px;
+    background: #ffffff;
+    margin: 12px 15px;
+}
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    background: #8f41e8;
+    color: #ffffff;
+    transition: background 0.4s, color 0.4s;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.btn-custom:hover {
+    background: #7B398F;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.inicial {
+    font-family: 'Fjalla One', sans-serif;
+    color: #7B398F;
+    font-size: 4em;
+    text-shadow: 5px 5px 0.05em #fff;
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.container-p1{
+    color: #000000;
+    font-size: 1.1em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#conteudo {
+    background: #ffffff;
+}
+
+.fotos {
+    padding: 10px 0px;
+    background: white;
+}
+
+#recursos h2,
+h3 {
+    color: #482075;
+}
+
+#recursos p {
+    text-align: justify;
+    color: #000000;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+footer {
+    background: #000000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+   
+    
+}
+
+footer h6 {
+    color: #919496;
+    text-align: center;
+}
+
+footer h5 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+.texto {
+    color: #000000;
+    text-align: justify;
+}
+
+
+#sobre ul {
+    list-style: none;
+    color: #000;
+    
+}
+
+#sobre h3 {
+    color: #482075;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5em;
+}
+
+#contato {
+    margin-top: 150px;
+     font-family: 'Fjalla One', sans-serif;
+  
+    
+}
+#contato h2{
+    font-size: 2.8em;
+     color: #000000;
+     font-family: 'Fjalla One', sans-serif;
+    color: #7B398F;
+    font-size: 4em;
+    text-shadow: 5px 5px 0.05em #fff;
+    
+}
+
+.main-content {
+    min-height: 100%;
+}
+
+
+    
+
+

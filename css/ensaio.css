@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+
+}
+@media(min-width:1170px){
+    .container{
+        max-width: 1170px;
+        padding: 0;
+    }
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#010101;
+}
+a:link, a:active, a:visited{
+    color: #474747;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* grid de 960px*/
+.linha{
+    margin-left: -5px;
+    margin-right: -5px;
+    
+}
+.linha:before,
+.linha:after{
+    content: "";
+    display: table;
+}
+.linha:after{
+    clear: both;
+}
+
+.coluna{ 
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-right: -4px;
+
+}
+@media(min-width:480px){
+    .col2{
+        width: 50%;
+    }
+}
+
+
+@media(min-width:728px){
+    .col3{
+        width: 33.3333%;
+    }
+}
+
+@media(min-width:728px){
+    .col4{
+        width: 25%;
+        
+    }
+}
+
+
+
+/*sidebar*/
+stilos reutilizaveis*/
+.sem-padding{
+    padding: 0 !important;
+}
+sem-margin{
+    margin: 0 !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 15px 0 10px 0;
+}
+ul li, ol li{
+    margin-bottom: 5px;
+}
+ul.inline li,ol.inline li{
+    display: inline;
+    margin-right: 15px;
+}
+ul.inline li:last-child,ol.inline:last-child li{
+    margin-right: 0px;
+}
+ul.sem-marcador, ol.semmarcador{
+    list-style: none;
+}
+a.botao, input.botao{
+    background: #474747;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none
+}
+a.botao:hover, input.botao:hover{
+    background: #757575;
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*layount do site*/
+
+h1.logo{
+    font-weight: 300;
+    color: white;
+}
+img.logo{
+    padding: 10px 0 0 0;
+}
+.conteudo-extra{
+    background: #E8E8E8;
+}
+
+.footer{
+    
+    
+    overflow: hidden;
+    
+  
+    background: #343a40;
+    color: white;
+    
+       text-align: center;
+    font-weight: 100;
+    
+}
+.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 25px;
+}
+.menu li a{
+    
+    color:white;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    text-decoration:none;
+    background: #757575
+}
+ul.noticias li{
+    clear:both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+ul.noticias li img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+
+}
+ul.noticias li h4{
+    margin:-2px 0 5px 0;
+    font-weight: 500;
+}
+il.noticias li p{
+    margin:5px 0;
+    font-weight: 300;
+    text-align:left;
+}
+ul.noticias li p a{
+    font-weight:500;
+}
+
+.contatos label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.contatos input, .contato textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width:96%;
+
+}
+.contatos textarea{
+    padding: 5px 2%;
+    height: 150px;
+    width: 96%;
+}
+
+.contatos input.botao{
+    width: auto;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.bio{
+    text-align: justify;
+}
+
+
+.home{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin:15px;
+}
+
+
+/*hsabhasbhbashbsabhasbsbhfbs*/
+
+    
