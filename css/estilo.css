@@ -9,12 +9,9 @@ body,
     overflow-x: hidden;
 }
 
-
-body{
+body {
     background: url(../imagens/camera01.png), url(../imagens/ruido.png), linear-gradient(30deg, rgb(130, 190, 243, 0.1), rgb(88, 129, 218, 0.1));
     background-attachment: fixed;
-    
-    
 }
 
 
@@ -73,9 +70,9 @@ nav.navbar-transparente {
 .caixa {
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
-.container-p1{
+
+.container-p1 {
     color: #000000;
     font-size: 1.1em;
     font-family: 'Fjalla One', sans-serif;
@@ -113,8 +110,6 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0px;
-   
-    
 }
 
 footer h6 {
@@ -142,40 +137,45 @@ footer ul li {
     text-align: justify;
 }
 
-
 #sobre ul {
     list-style: none;
     color: #000;
-    
 }
 
 #sobre h3 {
-    color: #482075;
+    color: #7B398F;
     font-family: 'Fjalla One', sans-serif;
     font-size: 2.5em;
 }
 
 #contato {
     margin-top: 150px;
-     font-family: 'Fjalla One', sans-serif;
-  
-    
+    font-family: 'Fjalla One', sans-serif;
 }
-#contato h2{
+
+#contato h2 {
     font-size: 2.8em;
-     color: #000000;
-     font-family: 'Fjalla One', sans-serif;
+    color: #000000;
+    font-family: 'Fjalla One', sans-serif;
     color: #7B398F;
     font-size: 4em;
     text-shadow: 5px 5px 0.05em #fff;
-    
+}
+
+#formulario {
+    margin-top: 150px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#formulario h2 {
+    font-size: 2.8em;
+    color: #000000;
+    font-family: 'Fjalla One', sans-serif;
+    color: #7B398F;
+    font-size: 4em;
+    text-shadow: 5px 5px 0.05em #fff;
 }
 
 .main-content {
     min-height: 100%;
 }
-
-
-    
-
-

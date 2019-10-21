@@ -59,11 +59,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="entrar.html">Entrar</a>
                         </li>
-                        <li class="nav-item divisor"></li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="form.html">Ainda não é cadastrado?</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -71,41 +66,57 @@
 
     </header>
 
-
-    <!--Section: Contact v.2-->
-
-    <section id="contato" class="main-content">
+    <section id="formulario" class="main-content">
         <div class="container">
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center mt-5 ">Contato</h2>
+            <h2 class="h1-responsive font-weight-bold text-center mt-5 ">Cadastro</h2>
             <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5  mt-5" style="color:#000000">Gostou? Gostaria de mais informações? Você tem alguma pergunta? Por favor, não hesite em entrar contato diretamente.</p>
+            <p class="text-center w-responsive mx-auto mb-5  mt-5" style="color:#000000">Preencha o formulário de inscrição:</p>
 
             <div class="row">
 
                 <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
+                <div class="col-md-12 mb-md-0 mb-5">
                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                         <!--Grid row-->
                         <div class="row">
 
                             <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0 " style="color:#000000">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Usuário</label>
+                                </div>
+                            </div>
                             <div class="col-md-6">
                                 <div class="md-form mb-0" style="color:#000000">
                                     <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Seu nome</label>
+                                    <label for="name" class="">Nome</label>
                                 </div>
                             </div>
-                            <!--Grid column-->
 
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-0 " style="color:#000000">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Seu e-mail</label>
+                                    <input type="date" id="date" name="date" class="form-control">
+                                    <label for="date" class="">Data de Nascimento</label>
                                 </div>
                             </div>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 " style="color:#000000">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">E-mail</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 " style="color:#000000">
+                                    <input type="password" id="pass" name="password" class="form-control">
+                                    <label for="pass" class="">Senha</label>
+                                </div>
+                            </div>
+
                             <!--Grid column-->
 
                         </div>
@@ -115,8 +126,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0 " style="color:#000000">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Assunto</label>
+                                    <input type="tel" id="phone" name="subject" class="form-control">
+                                    <label for="phone" class="">Telefone</label>
                                 </div>
                             </div>
                         </div>
@@ -129,8 +140,8 @@
                             <div class="col-md-12">
 
                                 <div class="md-form " style="color:#000000">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Sua mensagem</label>
+                                    <input type="text" id="message" name="message" class="form-control"></input>
+                                    <label for="message">Endereço</label>
                                 </div>
 
                             </div>
@@ -144,32 +155,7 @@
                     </div>
                     <div class="status"></div>
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-map-marker-alt fa-2x" style="color:#482075;"></i>
-                            <p style="color:#000000">Salvador - Bahia</p>
-                        </li>
-
-                        <li><i class="fas fa-phone mt-4 fa-2x" style="color:#482075;"></i>
-                            <p style="color:#000000">+55 (74) 9 9933-1749</p>
-                        </li>
-
-                        <li><i class="fas fa-envelope mt-4 fa-2x" style="color:#482075;"></i>
-                            <p style="color:#000000">pablo-portugal@hotmail.com</p>
-                        </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-
-            </div>
-        </div>
-
     </section>
-    <!--Section: Contact v.2-->
-
 
 
     <footer>

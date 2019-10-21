@@ -25,7 +25,7 @@
     <link rel="icon" href="imagens/camera.png">
 </head>
 
-<body >
+<body>
     <header>
         <!--Inicio cabeçalho-->
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
@@ -57,7 +57,13 @@
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="">Entrar</a>
+                            <a class="nav-link" href="entrar.html">Entrar</a>
+                        </li>
+
+                        <li class="nav-item divisor"></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Ainda não é cadastrado?</a>
                         </li>
                     </ul>
                 </div>
@@ -73,40 +79,60 @@
             <div class="row">
                 <div class="col-md-12 capa">
                     <!--Textos da seção-->
-                    
-                    <div class="align-self-center">
+                    <div id="carousel-controle" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="align-self-center">
 
-                        <h1 class="display-4 mb-2 mt-5 inicial"> Um novo conceito em fotografia</h1>
+                                    <h1 class="display-4 mb-2 mt-5 inicial"> Um novo conceito em fotografia</h1>
 
-                        <p class="container-p1"> Onde o ensaio será lembrado não apenas pelas belas imagens, mas pelo momento agradável vivido.
-                        </p>
+                                    <p class="container-p1"> Onde o ensaio será lembrado não apenas pelas belas imagens, mas pelo momento agradável vivido.
+                                    </p>
 
-                        <form class="mt-5 mb-4">
-                            <div class="container-p1">
-                                <p>Fique por dentro de todas as atualizações:</p>
-                            </div>
+                                    <form class="mt-5 mb-4">
+                                        <div class="container-p1">
+                                            <p>Fique por dentro de todas as atualizações:</p>
+                                        </div>
 
-                            <div class="input-group input-group-lg m-auto" style="width: 40%;">
-                                <input type="email" placeholder="Seu e-mail" class="form-control">
-                                <div class="input-group-append">
-                                    <button type="button" class="btn btn-custom">Cadastre-se</button>
+                                        <div class="input-group input-group-lg m-auto" style="width: 40%;">
+                                            <input type="email" placeholder="Seu e-mail" class="form-control">
+                                            <div class="input-group-append">
+                                                <button type="button" class="btn btn-custom">Cadastre-se</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <p class="container-p1">Acompanhe também nas minhas redes sociais:
+                                        <a href="https://www.instagram.com/pabloportugalphotography/" class="btn btn-custom">
+                                            <i class="fab fa-instagram fa-lg"></i>
+                                        </a>
+                                        <a href="https://www.facebook.com/photo.pablo.portugal/" class="btn btn-custom">
+                                            <i class="fab fa-facebook-square fa-lg"></i>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
-                        </form>
+                            <div class="carousel-item">
 
-                        <p class="container-p1">Acompanhe também nas minhas redes sociais:
-                            <a href="https://www.instagram.com/pabloportugalphotography/" class="btn btn-custom">
-                                <i class="fab fa-instagram fa-lg"></i>
+                                <img src="imagens/juncao-1.jpg" width="100%">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/juncao-2.jpg" width="100%">
+                            </div>
+                            <!--fim do inner-->
+                            <!--controles-->
+                            <a href="#carousel-controle" class="carousel-control-prev" data-slide="prev">
+                                <i class="fas fa-angle-left"></i>
                             </a>
-                            <a href="https://www.facebook.com/photo.pablo.portugal/" class="btn btn-custom">
-                                <i class="fab fa-facebook-square fa-lg"></i>
+                            <a href="#carousel-controle" class="carousel-control-next" data-slide="next">
+                                <i class="fas fa-angle-right"></i>
                             </a>
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <!--<div class="col-md-6 d-none d-md-block">
-                    <img src="imagens/pabblooutraa.png" width="520">
-                </div>-->
+        <img src="imagens/pabblooutraa.png" width="520">
+    </div>-->
             </div>
         </div>
 
@@ -153,7 +179,7 @@
                 <div class="col-md-4">
                     <h3>Benefícios de um Ensaio:</h3>
 
-                    <p class="mt-4">Irá favorecer ao crescimento e um maior envolvimento  nas suas Redes Sociais. Perfis com lindas paisagens e fotos bem tiradas representam um dos nichos principais de sucesso e engajamento nas Redes, principalmente instagram.</p>
+                    <p class="mt-4">Irá favorecer ao crescimento e um maior envolvimento nas suas Redes Sociais. Perfis com lindas paisagens e fotos bem tiradas representam um dos nichos principais de sucesso e engajamento nas Redes, principalmente instagram.</p>
 
                     <h3>Nova percepção de si:</h3>
                     <p class=" mt-4"> Você será visto através do olhar do fotógrafo. Com isso, mudará o seu jeito de enxergar-se, resultando em uma beleza antes não percebida. </p>
@@ -175,7 +201,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <img src="imagens/logo.png.png" width="142">
+                    <a href="index.html">
+                        <img src="imagens/logo.png.png" width="142">
+                    </a>
                 </div>
                 <div class="col-md-7">
                     <h6 class="mb-4">&copy;2019 - Pablo Portugal Photography</h6>
